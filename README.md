@@ -29,4 +29,8 @@ Change {insert_name} to be whatever you want. I called my `fix`. This is the fun
 
 ```shell
 ➜  ~ fix
+fs.inotify.max_user_watches = 524288
+fs.inotify.max_user_watches = 524288
+fs.inotify.max_user_watches = 524288
+fs.inotify.max_user_watches = 524288
 ```

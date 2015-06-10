@@ -8,11 +8,11 @@ Sometimes gulp will give me this error:
 
 I added this function to config.fish to fix it:
 
-    function fix
+    function {insert_name}
       echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf & sudo sysctl -p
     end
 
-You can change `fix` to be whatever you want. This is the function call.
+Change {insert_name} to be whatever you want. I called my `fix`. This is the function call.
 
 ```shell
 ➜  ~ fix

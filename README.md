@@ -34,6 +34,3 @@ fs.inotify.max_user_watches = 524288
 fs.inotify.max_user_watches = 524288
 fs.inotify.max_user_watches = 524288
 ```
-
-
-Just a test
